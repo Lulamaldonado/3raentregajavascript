@@ -1,5 +1,5 @@
 const inputEmail=document.querySelector('Email')
-const inputContraseña= document.querySelector('contraseña')
+const inputContraseña= document.querySelector('Contraseña')
 
 const boton1 = document.querySelector('.boton1')
 
