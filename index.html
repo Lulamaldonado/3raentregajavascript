@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SCSS/Estilo.css">
     <title>AireLibre Deport</title>
 </head>
 
@@ -10,16 +11,24 @@
 
 <body>
     
-    <div id = "contenedor1">
-        <input type ="text">
-        <input type="text">
-    </div>
+    <form>
+        <div class="UsuarioIngreso">
+        <h2>Email</h2>
+            <input type="text" id="Email" aria-describedby="emailHelp">
+            <div> ejemplo@gmail.com</div>
+        </div>
+        
+        <div class="UsuarioContraseña">
+        
+            <h2>Contraseña</h2>
+            <input type="text" id="Contraseña">
+        </div>
 
-    <div>
-        <button>Ingresar</button>
-    </div>
 
+        <button class="boton1">Ingresar</button>
+    </form>
 
+ 
 
 <script src="./main.js"></script>
     
